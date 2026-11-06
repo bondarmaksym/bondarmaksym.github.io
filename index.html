@@ -5,12 +5,20 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Maksym Bondar | Shift Leader, Customer Support</title>
   <meta name="description" content="Maksym Bondar, Shift Leader at Relativity. Empowering support teams with AI, process excellence and automation." />
+  <script>document.documentElement.classList.add('js')</script>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="style.css" />
+  <script src="script.js" defer></script>
 </head>
 <body>
+
+  <div class="bg" aria-hidden="true">
+    <span class="blob b1"></span>
+    <span class="blob b2"></span>
+    <span class="grid"></span>
+  </div>
 
   <header class="nav">
     <div class="container nav-inner">
@@ -18,165 +26,157 @@
       <nav>
         <a href="#experience">Experience</a>
         <a href="#skills">Skills</a>
-        <a href="#projects">Projects</a>
-        <a href="#certifications">Certifications</a>
         <a href="#contact">Contact</a>
       </nav>
     </div>
   </header>
 
-  <main id="top" class="container">
+  <main id="top">
 
     <!-- HERO -->
-    <section class="hero">
-      <p class="eyebrow">Hi, I am</p>
-      <h1>Maksym Bondar</h1>
-      <p class="role">Shift Leader @ Relativity</p>
+    <section class="hero container">
+      <p class="badge"><span class="dot"></span>Shift Leader @ Relativity</p>
+      <h1>Maksym <span class="grad">Bondar</span></h1>
       <p class="summary">Empowering support teams with AI, process excellence and automation.</p>
       <div class="actions">
-        <a class="btn primary" href="#projects">See my work</a>
+        <a class="btn primary" href="#experience">My experience</a>
         <a class="btn" href="https://linkedin.com/in/bondarmaksym" target="_blank" rel="noopener">LinkedIn</a>
         <a class="btn" href="mailto:2000bond.mb@gmail.com">Email me</a>
+      </div>
+
+      <div class="stats">
+        <div class="stat"><strong>60</strong><span>agents per shift</span></div>
+        <div class="stat"><strong>98%+</strong><span>SLA adherence</span></div>
+        <div class="stat"><strong>10+</strong><span>automations built</span></div>
+        <div class="stat"><strong>10</strong><span>people led directly</span></div>
       </div>
     </section>
 
     <!-- EXPERIENCE -->
-    <section id="experience">
-      <h2>Experience</h2>
+    <section id="experience" class="container reveal">
+      <h2>
+        <span class="ico">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/></svg>
+        </span>
+        Work Experience
+      </h2>
 
-      <article class="job">
-        <div class="job-head">
-          <h3>Shift Leader, Customer Support <span>Relativity</span></h3>
+      <div class="timeline">
+        <article class="job reveal">
+          <div class="logo-tile">
+            <img src="https://www.google.com/s2/favicons?domain=relativity.com&sz=128" alt="Relativity logo" onerror="this.replaceWith(document.createTextNode('R'))" />
+          </div>
+          <div class="job-text">
+            <h3>Shift Leader, Customer Support</h3>
+            <p class="company">Relativity</p>
+          </div>
           <time>May 2024 – Present</time>
-        </div>
-        <ul>
-          <li>Lead a team of 10, running regular 1:1s, coaching sessions and performance reviews.</li>
-          <li>Own SLA, CSAT, FRT and QA performance for an operation of up to 60 agents per shift, maintaining <strong>98%+ adherence</strong>.</li>
-          <li>Primary escalation point across Product, Engineering and IT, resolving cross-functional issues that protect SLAs and customer relationships.</li>
-          <li>Built onboarding SOPs and training materials, cutting go-live time by <strong>2 weeks</strong>.</li>
-          <li>Developed an AI monitoring tool with Claude and Salesforce, decreasing the escalation rate by <strong>10%</strong>.</li>
-          <li>Built a Python/SQL dashboard with Workforce Management, cutting weekly activity-planning time by <strong>1 hour</strong>.</li>
-          <li>Designed 10+ automations for proactive monitoring, SLA adherence and team performance, reducing manual reporting by <strong>1 hour per shift</strong>.</li>
-        </ul>
-      </article>
+        </article>
 
-      <article class="job">
-        <div class="job-head">
-          <h3>Junior Team Leader <span>Cognizant Technology Solutions Poland</span></h3>
+        <article class="job reveal">
+          <div class="logo-tile">
+            <img src="https://www.google.com/s2/favicons?domain=cognizant.com&sz=128" alt="Cognizant logo" onerror="this.replaceWith(document.createTextNode('C'))" />
+          </div>
+          <div class="job-text">
+            <h3>Junior Team Leader</h3>
+            <p class="company">Cognizant Technology Solutions Poland</p>
+          </div>
           <time>Oct 2023 – Apr 2024</time>
-        </div>
-        <ul>
-          <li>Promoted to lead a team of 8 specialists, running 1:1s, performance reviews and individual development plans.</li>
-          <li>Produced weekly performance and risk reporting for stakeholders, tracking KPIs, milestones and delivery risk.</li>
-          <li>Developed a SQL-based dashboard for real-time monitoring of productivity and quality KPIs, saving <strong>2 hours weekly</strong> of manual analysis.</li>
-          <li>Coordinated project activities with other Team Leaders, QAs, Trainers and SDMs.</li>
-        </ul>
-      </article>
+        </article>
 
-      <article class="job">
-        <div class="job-head">
-          <h3>Senior Operations Specialist <span>Cognizant Technology Solutions Poland</span></h3>
+        <article class="job reveal">
+          <div class="logo-tile">
+            <img src="https://www.google.com/s2/favicons?domain=cognizant.com&sz=128" alt="Cognizant logo" onerror="this.replaceWith(document.createTextNode('C'))" />
+          </div>
+          <div class="job-text">
+            <h3>Senior Operations Specialist</h3>
+            <p class="company">Cognizant Technology Solutions Poland</p>
+          </div>
           <time>Feb 2022 – Sep 2023</time>
-        </div>
-        <ul>
-          <li>Promoted from Senior Process Administrator to take over the project operations domain.</li>
-          <li>Managed workflow, backlog and metrics for a 100-member operation.</li>
-          <li>Built analytics systems that turned raw data into insights for senior leadership.</li>
-          <li>Reduced project ramp-up time by <strong>1.5 weeks</strong> by transforming onboarding.</li>
-          <li>Designed a schedule and attrition planning workflow to keep delivery coverage constant.</li>
-          <li>Interviewed and evaluated candidates for new specialist roles.</li>
-        </ul>
-      </article>
+        </article>
+      </div>
     </section>
 
     <!-- SKILLS -->
-    <section id="skills">
-      <h2>Skills</h2>
+    <section id="skills" class="container reveal">
+      <h2>
+        <span class="ico">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+        </span>
+        Skills
+      </h2>
+
       <div class="skill-grid">
-        <div>
+
+        <div class="skill-group reveal">
           <h3>AI</h3>
-          <p class="chips"><span>Claude</span><span>ChatGPT</span><span>Gemini</span><span>Cursor</span><span>Copilot</span></p>
+          <ul class="tools">
+            <li><img src="https://cdn.simpleicons.org/claude" alt="" onerror="this.remove()" />Claude</li>
+            <li><img class="inv" src="https://cdn.simpleicons.org/openai" alt="" onerror="this.remove()" />ChatGPT</li>
+            <li><img src="https://cdn.simpleicons.org/googlegemini" alt="" onerror="this.remove()" />Gemini</li>
+            <li><img class="inv" src="https://cdn.simpleicons.org/cursor" alt="" onerror="this.remove()" />Cursor</li>
+            <li><img class="inv" src="https://cdn.simpleicons.org/githubcopilot" alt="" onerror="this.remove()" />Copilot</li>
+          </ul>
         </div>
-        <div>
+
+        <div class="skill-group reveal">
           <h3>Automation</h3>
-          <p class="chips"><span>Zapier</span><span>n8n</span><span>Power Automate</span><span>Slack Workflows</span></p>
+          <ul class="tools">
+            <li><img src="https://cdn.simpleicons.org/zapier" alt="" onerror="this.remove()" />Zapier</li>
+            <li><img src="https://cdn.simpleicons.org/n8n" alt="" onerror="this.remove()" />n8n</li>
+            <li><img src="https://cdn.simpleicons.org/powerautomate" alt="" onerror="this.remove()" />Power Automate</li>
+            <li><img class="inv" src="https://cdn.simpleicons.org/slack" alt="" onerror="this.remove()" />Slack Workflows</li>
+          </ul>
         </div>
-        <div>
+
+        <div class="skill-group reveal">
           <h3>Analytics</h3>
-          <p class="chips"><span>Excel</span><span>SQL</span><span>BigQuery</span><span>Power BI</span><span>Tableau</span><span>Google Data Studio</span><span>Root Cause Analysis</span></p>
+          <ul class="tools">
+            <li><img src="https://cdn.simpleicons.org/microsoftexcel" alt="" onerror="this.remove()" />Excel</li>
+            <li>
+              <svg class="db" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="12" cy="5" rx="9" ry="3"/><path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"/><path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"/></svg>SQL
+            </li>
+            <li><img src="https://cdn.simpleicons.org/googlebigquery" alt="" onerror="this.remove()" />BigQuery</li>
+            <li><img src="https://cdn.simpleicons.org/powerbi" alt="" onerror="this.remove()" />Power BI</li>
+            <li><img src="https://cdn.simpleicons.org/tableau" alt="" onerror="this.remove()" />Tableau</li>
+            <li><img src="https://cdn.simpleicons.org/looker" alt="" onerror="this.remove()" />Google Data Studio</li>
+          </ul>
         </div>
-        <div>
+
+        <div class="skill-group reveal">
           <h3>Ticketing</h3>
-          <p class="chips"><span>Salesforce</span><span>Zendesk</span><span>Intercom</span><span>Jira</span></p>
+          <ul class="tools">
+            <li><img src="https://cdn.simpleicons.org/salesforce" alt="" onerror="this.remove()" />Salesforce</li>
+            <li><img class="inv" src="https://cdn.simpleicons.org/zendesk" alt="" onerror="this.remove()" />Zendesk</li>
+            <li><img src="https://cdn.simpleicons.org/intercom" alt="" onerror="this.remove()" />Intercom</li>
+            <li><img src="https://cdn.simpleicons.org/jira" alt="" onerror="this.remove()" />Jira</li>
+          </ul>
         </div>
-        <div>
+
+        <div class="skill-group wide reveal">
           <h3>Support stack</h3>
-          <p class="chips"><span>GitHub</span><span>Snowflake</span><span>SendGrid</span><span>New Relic</span><span>Grafana</span><span>LaunchDarkly</span></p>
+          <ul class="tools">
+            <li><img class="inv" src="https://cdn.simpleicons.org/github" alt="" onerror="this.remove()" />GitHub</li>
+            <li><img src="https://cdn.simpleicons.org/snowflake" alt="" onerror="this.remove()" />Snowflake</li>
+            <li><img src="https://cdn.simpleicons.org/sendgrid" alt="" onerror="this.remove()" />SendGrid</li>
+            <li><img src="https://cdn.simpleicons.org/newrelic" alt="" onerror="this.remove()" />New Relic</li>
+            <li><img src="https://cdn.simpleicons.org/grafana" alt="" onerror="this.remove()" />Grafana</li>
+            <li><img src="https://cdn.simpleicons.org/launchdarkly" alt="" onerror="this.remove()" />LaunchDarkly</li>
+          </ul>
         </div>
-        <div>
-          <h3>Leadership</h3>
-          <p class="chips"><span>Team Management</span><span>Coaching</span><span>Project Coordination</span><span>Change Management</span></p>
-        </div>
-      </div>
 
-      <div class="meta-row">
-        <div>
-          <h3>Languages</h3>
-          <p>Ukrainian (native) · Polish (C1) · English (C1)</p>
-        </div>
-        <div>
-          <h3>Education</h3>
-          <p>B.A. Business Management and Administration, Andrzej Frycz Modrzewski Krakow University (2019–2022)</p>
-        </div>
       </div>
-    </section>
-
-    <!-- PROJECTS -->
-    <section id="projects">
-      <h2>Selected projects</h2>
-      <div class="cards">
-        <article class="card">
-          <h3>Product Support Performance Dashboard</h3>
-          <p>Support reporting function on Snowflake Streamlit (SQL + Python) that consolidates department KPIs and ticket analytics into one live view for management, replacing manual reports and saving <strong>3 hours weekly</strong>.</p>
-          <p class="chips"><span>Snowflake</span><span>Streamlit</span><span>SQL</span><span>Python</span></p>
-        </article>
-        <article class="card">
-          <h3>AI Triage</h3>
-          <p>AI-powered case triage assistant acting as a virtual SME, guiding technicians through complex cases with coaching-style recommendations and reducing manual consultation cases by <strong>30%</strong>.</p>
-          <p class="chips"><span>Claude</span><span>Salesforce</span></p>
-        </div>
-        <article class="card">
-          <h3>Shift Automation</h3>
-          <p>End-to-end automation of shift indicators (performance, reporting, immediate-action alerts), giving the team real-time visibility and cutting manual reporting and monitoring by <strong>2 hours per shift</strong>.</p>
-          <p class="chips"><span>Automation</span><span>Slack</span><span>Salesforce</span></p>
-        </article>
-        <article class="card">
-          <h3>Change Management</h3>
-          <p>Launched department-wide process changes using ADKAR and ITIL frameworks, covering stakeholder buy-in, SOP updates, team training and post-launch adoption tracking.</p>
-          <p class="chips"><span>ADKAR</span><span>ITIL</span><span>SOPs</span></p>
-        </article>
-      </div>
-    </section>
-
-    <!-- CERTIFICATIONS -->
-    <section id="certifications">
-      <h2>Certifications</h2>
-      <ul class="certs">
-        <!-- Replace with your real certifications, one <li> each. Example: -->
-        <li>
-          <a href="https://example.com/verify" target="_blank" rel="noopener">Certification name</a>
-          <span>Issuer · Year</span>
-        </li>
-      </ul>
     </section>
 
     <!-- CONTACT -->
-    <section id="contact" class="contact">
-      <h2>Let’s talk</h2>
-      <p>Interested in support operations, automation or AI for support teams? Get in touch.</p>
-      <div class="actions">
-        <a class="btn primary" href="mailto:2000bond.mb@gmail.com">2000bond.mb@gmail.com</a>
-        <a class="btn" href="https://linkedin.com/in/bondarmaksym" target="_blank" rel="noopener">LinkedIn</a>
+    <section id="contact" class="container contact reveal">
+      <div class="contact-card">
+        <h2>Let’s talk</h2>
+        <p>Interested in support operations, automation or AI for support teams? Get in touch.</p>
+        <div class="actions center">
+          <a class="btn primary" href="mailto:2000bond.mb@gmail.com">2000bond.mb@gmail.com</a>
+          <a class="btn" href="https://linkedin.com/in/bondarmaksym" target="_blank" rel="noopener">LinkedIn</a>
+        </div>
       </div>
     </section>
 
